@@ -1,0 +1,26 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  mail:
+#    host: 174.34.52.95
+    host: 220.250.64.225
+    username: from@uaes.com
+#    username: xia.chen@uaes.com
+#    password: uaes,123
+    properties:
+      smtp:
+        auth: true
+
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+  messages:
+    encoding: UTF-8
+
+
+receiver: xia.chen@uaes.com,zhenghuan.wang@uaes.com,yongkun.dong@uaes.com
