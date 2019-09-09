@@ -24,6 +24,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-/bin/
-/gradle/
